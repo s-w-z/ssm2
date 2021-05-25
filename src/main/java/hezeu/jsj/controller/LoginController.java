@@ -22,22 +22,21 @@ public class LoginController {
 
     // 登录检测
     @RequestMapping("login")
-    @ResponseBody
-    public Map<String,String> login(Model model, String userName, String password, String status){
+    public String login(Model model, String userName, String password, String status,Map<String,String> map){
         // 检查用户身份
         //1、用户为管理员
         if(status.equals("admin")){
             // 检查用户名密码是否正确
             Admin admin = adminService.login(userName, password);
-            Map<String,String> map = new HashMap();
+            // 如果正确
             if(admin != null){
                 // 放入session
+                System.out.println("登录调用管理员登陆成功");
                 model.addAttribute("userInfo",admin);
-                map.put("msg","true");
-                return map;
+                return "admin/index";
             }else{
                 map.put("msg","false");
-                return map;
+                return "forward:/login.jsp";
             }
         }
         //2、用户为档案管理员
