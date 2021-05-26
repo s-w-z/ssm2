@@ -18,6 +18,6 @@
 <%
     request.setAttribute("ctp", request.getContextPath());
 %>
-    myinfo.jsp
+    myinfo.jspttttttt
 </body>
 </html>
