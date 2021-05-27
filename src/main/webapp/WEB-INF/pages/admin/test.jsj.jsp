@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: swz
-  Date: 2021/5/25
-  Time: 20:25
+  Date: 2021/5/27
+  Time: 14:41
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -10,16 +10,12 @@
 <html>
 <head>
     <base href="<%=basePath%>">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>登录</title>
-    <link rel="stylesheet" href="./layui/css/layui.css">
+    <title>Title</title>
 </head>
 <body>
 <%
     request.setAttribute("ctp", request.getContextPath());
 %>
-    myinfo.jsp
-    ${basePath}
+
 </body>
 </html>

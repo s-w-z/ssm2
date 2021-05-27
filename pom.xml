@@ -105,6 +105,8 @@
       <version>2.12.3</version>
     </dependency>
 
+
+
   </dependencies>
 
   <!--  设置可以扫描到resources-->
@@ -119,5 +121,9 @@
         <filtering>false</filtering>
       </resource>
     </resources>
+
+
   </build>
+
+
 </project>
