@@ -9,7 +9,6 @@
 <% String basePath = request.getContextPath();%>
 <html>
 <head>
-    <base href="<%=basePath%>">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>登录</title>
@@ -20,6 +19,5 @@
     request.setAttribute("ctp", request.getContextPath());
 %>
     myinfo.jsp
-    ${basePath}
 </body>
 </html>
