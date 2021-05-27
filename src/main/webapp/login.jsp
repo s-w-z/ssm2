@@ -85,13 +85,13 @@
         <div class="layui-form-item">
             <label class="layui-form-label">用户名</label>
             <div class="layui-input-block">
-                <input type="text" name="userName" required  lay-verify="username" placeholder="请输入用户名" autocomplete="off" class="layui-input" value="admin">
+                <input type="text" name="userName" required  lay-verify="username" placeholder="请输入用户名" autocomplete="off" class="layui-input" value="2018124205">
             </div>
         </div>
         <div class="layui-form-item">
             <label class="layui-form-label">密 &nbsp;&nbsp;码</label>
             <div class="layui-input-inline">
-                <input type="password" name="password" required lay-verify="pass" placeholder="请输入密码" autocomplete="off" class="layui-input" value="admin">
+                <input type="password" name="password" required lay-verify="pass" placeholder="请输入密码" autocomplete="off" class="layui-input" value="123456">
             </div>
             <!-- <div class="layui-form-mid layui-word-aux">辅助文字</div> -->
         </div>
@@ -100,8 +100,8 @@
             <label class="layui-form-label">身份</label>
             <div class="layui-input-block">
                 <select name="status" lay-verify="">
-                    <option value="admin" selected>管理员</option>
-                    <option value="student" >学生</option>
+                    <option value="admin" >管理员</option>
+                    <option value="student" selected>学生</option>
                     <option value="archivist">档案管理员</option>
                 </select>
             </div>
